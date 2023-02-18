@@ -1,3 +1,16 @@
+# Sets (conjuntos)
+
+'''
+Conjuntos, es una agrupación de elementos que tienen propiedades en común.
+    - Se puede modificar
+    - No tiene un orden específico
+    - No se permiten duplicados
+    
+ Los sets (conjuntos) comparten la sintaxis con los diccionarios al momento de definirlos 
+ ya que usan curly braces {}, lo que los diferencia es que los sets no contienen la estructua de clave-valor.   
+    
+'''
+
 set_countries = {'col', 'mex', 'bol'}
 print(set_countries)
 print(type(set_countries))
