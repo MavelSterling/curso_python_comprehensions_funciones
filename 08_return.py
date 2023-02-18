@@ -13,9 +13,10 @@ print(result_2)
 
 #Funciones con return
 
-'''suma=0
-
-for x in range(1,11):
+'''
+def sum_with_range(min, max):
+suma=0
+for x in range(1,10):
     suma+=x
 print(suma)
 
