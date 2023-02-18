@@ -22,7 +22,22 @@ print(population_v2)
 names = ['nico', 'zule', 'santi']
 ages = [12, 56, 98]
 
+# classical method
+
+dict = {}
+for i in range(len(names)):
+  dict[names[i]] = ages[i]
+  
+# Dictionary Comprehension
+dict_2 = {names[i] : ages[i] for i in range(len(names))}
+
 print(list(zip(names, ages)))
 
+# Dictionary Comprehension (explicado en clase)
 new_dict = {name: age for (name, age) in zip(names, ages)}
 print(new_dict)
+
+
+names = ['nico', 'zule', "santi"]
+edades = [12,56,98]
+new_dict = {names[i]:edades[i] for i in range(len(names))}
