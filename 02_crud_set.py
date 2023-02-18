@@ -18,29 +18,34 @@ set_countries = {'col', 'mex', 'bol'}
 size = len(set_countries) # Tamaño del conjunto
 print(size)
 
-print('col' in set_countries)
-print('pe' in set_countries)
+print('col' in set_countries) # Consulta si col esta en el conjunto
+print('pe' in set_countries) # Consulta si pe esta en el conjunto
 
-# add
-set_countries.add('pe')
-print(set_countries)
+# add - agregar pe al conjunto
 set_countries.add('pe')
 print(set_countries)
 
-# update
+# Volver a agregar al elemento - Solo se agrega una vez en el conjunto
+set_countries.add('pe')
+print(set_countries)
+
+# update - Actualizar el conjunto 
 set_countries.update({'ar', 'ecua', 'pe'})
 print(set_countries)
 
-# remove
-
+# remove - Quitar a col del conjunto
 set_countries.remove('col')
 print(set_countries)
 
 set_countries.remove('ar')
 set_countries.discard('arg')
 print(set_countries)
+
+# Agregar arg al conjunto
 set_countries.add('arg')
 print(set_countries)
+
+# Limpiar el conjunto
 set_countries.clear()
 print(set_countries)
 print(len(set_countries))
