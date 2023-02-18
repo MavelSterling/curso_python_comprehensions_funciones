@@ -25,7 +25,7 @@ print(suma)
 '''
 #Sin return
 def suma_consecutiva_v1(minimo,maximo):
-    print("Sin Return")
+    print("Resultados sin Return en la función")
     print(minimo,maximo)
     suma=0
     for x in range(minimo,maximo+1 ):
@@ -34,7 +34,7 @@ def suma_consecutiva_v1(minimo,maximo):
  
 #Con return
 def suma_consecutiva_v2(minimo,maximo):
-    print("Con Return")
+    print("Resultados con Return en la función")
     print(minimo,maximo)
     suma=0
     for x in range(minimo,maximo+1 ):
