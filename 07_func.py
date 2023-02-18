@@ -1,3 +1,12 @@
+'''
+Funciones
+
+Una función es un grupo de declaraciones relacionadas que realizan una tarea específica.
+    Las funciones ayudan a dividir nuestro programa en partes más pequeñas y modulares. 
+    A medida que nuestro programa crece más y más, las funciones lo hacen más organizado y manejable.
+    Además, evita la repetición y hace que el código sea reutilizable.
+'''
+
 print('Hola')
 
 def my_print(text):
