@@ -24,9 +24,11 @@ unique = { c: c.upper() for c in text if c in 'aeiou'}
 print(unique)
 
 # Contar las vocales
-
 texto = 'Hola, Platzi'
-
 unico = {c.upper() : texto.count(c) for c in texto if c in {'a', 'e', 'i', 'o', 'u'}}
-
 print(unico)
+
+# Contar las vocales
+text1 = 'Hola, soy Nicolas'
+unique1 = {c: text1.count(c) for c in text1 if c in 'aeiou'}
+print(unique1)
