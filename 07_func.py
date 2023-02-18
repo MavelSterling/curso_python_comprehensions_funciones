@@ -32,7 +32,7 @@ print('Hola, Platzinauta')
 #Agregando una funcion print
 
 def greeting(text):
-# Aquí estamos agregando una funcion y su sintaxis.
+# Aquí se agrega una funcion y su sintaxis.
 # Junto con sus parametros en este caso 'text'
   print('This is my print')
   print('This is my print 2')
@@ -44,6 +44,20 @@ greeting('Texto ejemplo, llamando a la función desde su parametro. ' * 2)
 #Aquí otro ejemplo con suma
 def suma(a,b):
   print(a + b)
-#  Imprimimos el resultado a consola
+#  se imprime el resultado 
 suma(200, 100) 
-# llamamos a la función con parametros
+# llama a la función con parametros
+
+#................................................................
+
+def my_print(text):
+  print(text * 4) # veces que repite el texto
+
+my_print('This is my text ')
+
+def operation(a, b):
+  print("a: ",a, "b: ",b ,"suma: ",a + b,"Multi: " ,a * b,"Resta: ", a - b)
+
+operation(10,5)
+operation(8,12)
+operation(20,10)
