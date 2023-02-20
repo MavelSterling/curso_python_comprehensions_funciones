@@ -1,3 +1,15 @@
+'''
+FILTER
+La función filter(), devuelve un valor que esta siendo iterado de la cual su resultado será el valor que se esta buscando en el filter
+
+SINTAXIS
+_filter (function, iterable_
+
+Valores.
+filter: Una función que se ejecutara para cada elemento iterable
+iterable: Lo que se va a filtrar.
+
+'''
 matches = [
   {
     'home_team': 'Bolivia',
