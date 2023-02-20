@@ -3,7 +3,10 @@ MAP( )
 La función map () ejecuta una función especifica para cada elemento en un iterable y el elemento se envía a la función como un parámetro.
 
 Sintaxis.
-    map(function, iterables)
+    map(function, iterable[, iterable1, iterable2,..., iterableN])
+    
+Nota: el primer argumento para map()es un objeto de función , lo que significa que debe pasar una función sin llamarla. 
+Es decir, sin usar un par de paréntesis.
     
 '''
 
