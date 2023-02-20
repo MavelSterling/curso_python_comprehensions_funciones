@@ -25,12 +25,14 @@ high_ord_func_v2 = lambda x, func: x + func(x)
 
 result = high_ord_func(2, increment)
 # 2 + (2 + 1)
-print(result)
+print("El resultado es: ",result) 
 
 result = high_ord_func_v2(2, increment_v2)
 print(result)
 result = high_ord_func_v2(2, lambda x: x + 2)
+# 2+(2 + 2)
 print(result)
 ## change
 result = high_ord_func_v2(2, lambda x: x * 5)
+# 2+(2 * 5)
 print(result)
