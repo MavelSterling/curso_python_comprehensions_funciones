@@ -17,6 +17,7 @@ def choose_options():
   print('Computer option =>', computer_option)
   return user_option, computer_option
 
+# Reglas del juego - en una función
 def check_rules(user_option, computer_option, user_wins, computer_wins):
   if user_option == computer_option:
     print('Empate!')
