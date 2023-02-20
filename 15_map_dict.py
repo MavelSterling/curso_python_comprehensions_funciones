@@ -1,3 +1,4 @@
+# lista items con diccionarios
 items = [
   {
     'product': 'camisa',
