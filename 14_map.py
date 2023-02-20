@@ -1,6 +1,6 @@
 '''
 MAP( )
-La función map () ejecuta una función especifica para cada elemento en un iterable y 
+La función map() ejecuta una función especifica para cada elemento en un iterable y 
 el elemento se envía a la función como un parámetro.
 
 Sintaxis.
