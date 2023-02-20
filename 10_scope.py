@@ -58,7 +58,7 @@ price = 100 # global
 # result = 200
 
 def increment():
-  price = 200
+  price = 200 # local
   result = price + 10
   print(result)
   return result
