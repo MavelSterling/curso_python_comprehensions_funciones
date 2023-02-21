@@ -10,6 +10,8 @@ filter: Una función que se ejecutara para cada elemento iterable
 iterable: Lo que se va a filtrar.
 
 '''
+
+#------- Filter con diccionarios ----------
 matches = [
   {
     'home_team': 'Bolivia',
