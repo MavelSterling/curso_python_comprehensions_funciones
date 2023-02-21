@@ -8,6 +8,8 @@ Con filter(), puede aplicar una función de filtrado a un iterable y producir un
     En Python, filter()es una de las herramientas que puedes usar para la programación funcional .
 
 '''
+
+# Filter sobre listas
 numbers = [1,2,3,4,5]
 new_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(new_numbers)
