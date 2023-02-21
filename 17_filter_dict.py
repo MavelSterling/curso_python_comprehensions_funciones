@@ -36,6 +36,8 @@ matches = [
   },
 ]
 
+# obtener una lista con los diccionarios de los equipo locales que hayan ganado
+
 print(matches)
 print(len(matches))
 
