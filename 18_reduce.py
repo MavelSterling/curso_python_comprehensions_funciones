@@ -25,3 +25,8 @@ def accum(counter, item):
 result = functools.reduce(accum, numbers)
 
 print(result)
+
+
+numbers = [1,2,3,4]
+result = functools.reduce(max, numbers)
+print("El valor más alto de los números: ",numbers,"es ",result)
