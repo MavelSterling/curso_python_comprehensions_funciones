@@ -43,8 +43,8 @@ print(len(matches))
 
 new_list = list(filter(lambda item: item['home_team_result'] == 'Win', matches))
 
-print(new_list)
-print(len(new_list))
+print("Lista de equipos que ganaron: ",new_list)
+print("Cantidad de elementos de la lista: ",len(new_list)) # numero de elementos de la lista
 
 print(matches)
-print(len(matches))
+print("Cantidad de elementos de la lista: ", len(matches))
