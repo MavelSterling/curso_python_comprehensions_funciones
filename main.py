@@ -27,7 +27,7 @@ print(pkg.URL)
 print(pkg.mod_1.func_1())
 
 # mod_2.py
-import package.mod_2 as mod_2
+import pkg.mod_2 as mod_2
 
 print(mod_2.func_3())
 print(mod_2.func_4())
