@@ -12,5 +12,9 @@ print(a - b)
 original = [1,2,3,4,5] 
 new = []
 
-for x in n:
-	new.append(x * 2)
+#for x in n:
+#	new.append(x * 2)
+
+
+names = {'Nicolas', 'Miguel', 'Juan', 'Nicolas'} 
+print(names) 
