@@ -10,7 +10,7 @@ Excepciones: son errores que ocurren durante la ejecución del código.
 Podemos utilizar la sentencia try-except para manejar las excepciones y evitar que el programa se bloquee. 
     Por ejemplo:
         La palabra clave assert se utiliza para verificar si una condición es verdadera. Si la condición es verdadera, assert no hace nada y el programa continúa ejecutándose normalmente. Si la condición es falsa, assert genera una excepción AssertionError y detiene la ejecución del programa.
-        La declaración raise se utiliza para lanzar una excepción. A menudo se utiliza junto con las declaraciones try y except para manejar las excepciones que pueden ocurrir en su código.
+        -La declaración raise se utiliza para lanzar una excepción. A menudo se utiliza junto con las declaraciones try y except para manejar las excepciones que pueden ocurrir en su código.
 
 Algunas excepciones comunes en Python son:
 
