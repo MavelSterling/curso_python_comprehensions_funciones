@@ -17,7 +17,7 @@ print('Hola 2')
 #---------- Manejo de errores --------------
 
 # python detiene la ejecucion al detectar un error
-print(1/0)
+# print(1/0)
 print('hola')
 # --> Error division by zero
 
