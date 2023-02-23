@@ -5,7 +5,7 @@ Para realizar la lectura de un archivo tipo texto en Python debemos utilizar la 
 esta función nos permite abrir un archivo tipo texto en python.
 
 '''
-# imprimir linea a linea del archivo
+# Para abrir un archivo
 file = open('./text.txt')
 
 # print(file.read())
