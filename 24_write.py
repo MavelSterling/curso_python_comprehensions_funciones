@@ -34,6 +34,12 @@ f.write("Uppps!! hemos sobre escrito el texto con este nuevo\n")
 f.close()
 
 
+'''
+El permiso de r+ permite escribir y leer el archivo
+El permiso de w+ permite reescribir y leer el archivo
+
+'''
+
 with open('./texs.txt', 'w+') as file:
   for line in file:
     print(line)
